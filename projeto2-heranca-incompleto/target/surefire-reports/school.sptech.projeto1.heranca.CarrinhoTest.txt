@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: school.sptech.projeto1.heranca.CarrinhoTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 7, Errors: 6, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! - in school.sptech.projeto1.heranca.CarrinhoTest
+school.sptech.projeto1.heranca.CarrinhoTest.dadoUmValorValidoMetodoAdicionarProdutoDeveAdicionarOProdutoNoCarrinho  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "school.sptech.projeto1.heranca.Carrinho.getProdutos()" is null
+	at school.sptech.projeto1.heranca.CarrinhoTest.dadoUmValorValidoMetodoAdicionarProdutoDeveAdicionarOProdutoNoCarrinho(CarrinhoTest.java:43)
+
+school.sptech.projeto1.heranca.CarrinhoTest.dadoUmValorInvalidoMetodoAdicionarProdutoNaoDeveAdicionarOProdutoNoCarrinho  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "school.sptech.projeto1.heranca.Carrinho.getProdutos()" is null
+	at school.sptech.projeto1.heranca.CarrinhoTest.dadoUmValorInvalidoMetodoAdicionarProdutoNaoDeveAdicionarOProdutoNoCarrinho(CarrinhoTest.java:54)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoNomeValidoCaixaBaixaMetodoFindProdutoPeloNomeDeveRetornarOProdutoEncontrado  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <school.sptech.projeto1.heranca.Produto@4f18837a> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoNomeValidoCaixaBaixaMetodoFindProdutoPeloNomeDeveRetornarOProdutoEncontrado(CarrinhoTest.java:131)
+
+school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorValidoMetodoRemoverProdutoDeveRemoverOProdutoDaLista  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "school.sptech.projeto1.heranca.Carrinho.getProdutos()" is null
+	at school.sptech.projeto1.heranca.CarrinhoTest.aoPassarUmValorValidoMetodoRemoverProdutoDeveRemoverOProdutoDaLista(CarrinhoTest.java:64)
+
+school.sptech.projeto1.heranca.CarrinhoTest.aoAdicionarProdutosMetodoParcelarProdutoDeveCalcularOValorDosItensParceladoEmTresVezes  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "school.sptech.projeto1.heranca.Carrinho.parcelarCompra(java.lang.Integer)" is null
+	at school.sptech.projeto1.heranca.CarrinhoTest.aoAdicionarProdutosMetodoParcelarProdutoDeveCalcularOValorDosItensParceladoEmTresVezes(CarrinhoTest.java:96)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quando4ProdutosInternacionaisAdicionadosMetodoCountProdutosInternacionaisDeveRetornar4  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quando4ProdutosInternacionaisAdicionadosMetodoCountProdutosInternacionaisDeveRetornar4(CarrinhoTest.java:173)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoCategoriaInvalidaMetodoFindProdutoPorCategoriaDeveRetornarUmaListaVazia  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because "encontrados" is null
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoCategoriaInvalidaMetodoFindProdutoPorCategoriaDeveRetornarUmaListaVazia(CarrinhoTest.java:165)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoIndiceValidoMetodoFindProdutoPeloIndiceDeveRetornarOProdutoEncontrado  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <school.sptech.projeto1.heranca.Produto@3e58a80e> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoIndiceValidoMetodoFindProdutoPeloIndiceDeveRetornarOProdutoEncontrado(CarrinhoTest.java:105)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoCategoriaValidaECaixaAltaMetodoFindProdutoPorCategoriaDeveRetornarOsProdutosEncontrados  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[school.sptech.projeto1.heranca.ProdutoInternacional@4fb61f4a, school.sptech.projeto1.heranca.ProdutoInternacional@4fb0f2b9]> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoCategoriaValidaECaixaAltaMetodoFindProdutoPorCategoriaDeveRetornarOsProdutosEncontrados(CarrinhoTest.java:157)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoNomeValidoMetodoFindProdutoPeloNomeDeveRetornarOProdutoEncontrado  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <school.sptech.projeto1.heranca.Produto@7b9a4292> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoNomeValidoMetodoFindProdutoPeloNomeDeveRetornarOProdutoEncontrado(CarrinhoTest.java:122)
+
+school.sptech.projeto1.heranca.CarrinhoTest.aoAdicionarProdutosMetodoCalcularTotalDeveCalcularOValorDosItensDoCarrinho  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "school.sptech.projeto1.heranca.Carrinho.calcularTotal()" is null
+	at school.sptech.projeto1.heranca.CarrinhoTest.aoAdicionarProdutosMetodoCalcularTotalDeveCalcularOValorDosItensDoCarrinho(CarrinhoTest.java:84)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoCategoriaValidaMetodoFindProdutoPorCategoriaDeveRetornarOsProdutosEncontrados  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[school.sptech.projeto1.heranca.ProdutoInternacional@4a94ee4, school.sptech.projeto1.heranca.ProdutoInternacional@4cc451f2]> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoCategoriaValidaMetodoFindProdutoPorCategoriaDeveRetornarOsProdutosEncontrados(CarrinhoTest.java:148)
+
+school.sptech.projeto1.heranca.CarrinhoTest.quandoProdutosInternacionaisNaoAdicionadosMetodoCountProdutosInternacionaisDeveRetornar0  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoProdutosInternacionaisNaoAdicionadosMetodoCountProdutosInternacionaisDeveRetornar0(CarrinhoTest.java:187)
+
